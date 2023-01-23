@@ -1,4 +1,4 @@
-# -Epicode-Challenge02
+# Epicode-Challenge02
 
 Crea una pagina di registrazione per un app di music streaming!
 Crea una web page con un form al suo interno per raccogliere dati da parte dell’utente.
