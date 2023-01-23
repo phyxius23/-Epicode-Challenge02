@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Challenge 02</title>
+
+   <!-- Google Fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+   <!-- CSS -->
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <div class="container">
+
+      <h1>Iscriviti gratuitamente per iniziare ad ascoltare!</h1>
+      <img src="icon/play-circle-outline.svg" alt="logo music streaming">
+
+      <!-- INIZIO FORM-->
+      <form onsubmit="alert('Registrazione inviata!')">
+
+         <!-- NOME -->
+         <div class="input-wrapper">
+            <div class="label-wrapper">
+               <label for="nome">Qual'è il tuo nome?</label>
+            </div> <!-- label-wrapper -->
+            <input type="text" name="nome" id="nome" placeholder="Inserisci il tuo nome">   
+         </div> <!-- input-wrapper -->
+
+         <!-- COGNOME -->
+         <div class="input-wrapper">
+            <div class="label-wrapper">
+               <label for="cognome">Qual'è il tuo cognome?</label>
+            </div> <!-- label-wrapper -->
+            <input type="text" name="cognome" id="cognome" placeholder="Inserisci il tuo cognome">   
+         </div> <!-- input-wrapper -->
+
+         <!-- E-MAIL -->
+         <div class="input-wrapper">
+            <div class="label-wrapper">
+               <label for="email">Qual'è il tuo indirizzo e-mail?</label>
+            </div> <!-- label-wrapper -->
+            <input type="email" name="email" id="email" placeholder="Inserisci la tua e-mail">   
+         </div> <!-- input-wrapper -->
+
+         <!-- PASSWORD -->
+         <div class="input-wrapper">
+            <div class="label-wrapper">
+               <label for="password">Crea una password</label>
+            </div> <!-- label-wrapper -->
+            <input type="password" name="password" id="password" placeholder="Crea una password">   
+         </div> <!-- input-wrapper -->
+
+         <!-- COMPLEANNO -->
+         <div class="input-wrapper">
+            <div class="label-wrapper">
+               <label for="compleanno">Qual'è la data del tuo compleanno?</label>
+            </div> <!-- label-wrapper -->
+            <input type="date" name="compleanno" id="compleanno" placeholder="Inserisci la data del tuo compleanno">   
+         </div> <!-- input-wrapper -->
+
+         <!-- TELEFONO -->
+         <div class="input-wrapper">
+            <div class="label-wrapper">
+               <label for="telefono">Qual'è il tuo numero di telefono?</label>
+            </div> <!-- label-wrapper -->
+            <input type="number" name="telefono" id="telefono" placeholder="Inserisci il tuo numero di telefono">   
+         </div> <!-- input-wrapper -->
+         
+         <!-- GENERE MUSICALE -->
+         <div class="input-wrapper generemusicale-input">
+            <div class="label-wrapper">
+               <legend>Seleziona i generi musicali che ascolti</legend>
+            </div> <!-- label-wrapper -->
+            <input type="checkbox" name="pop" id="pop"><label for="pop">Pop</label>
+            <input type="checkbox" name="rock" id="rock"><label for="pop">Rock</label>
+            <input type="checkbox" name="hippop" id="hippop"><label for="pop">Hip Pop</label>
+            <input type="checkbox" name="randb" id="randb"><label for="pop">R&B</label>
+            <input type="checkbox" name="soulandblues" id="soulandblues"><label for="pop">Soul & Blues</label>
+         </div> <!-- input-wrapper generemusicale-input -->
+         
+         <!-- CONDIZIONI D'USO -->
+         <div class="input-wrapper">
+            <div class="label-wrapper radio-label">
+               <input type="radio" name="condizioni" id="condizioni">
+               <label for="condizioni">Accetto i termini e condizioni d'uso</label>
+            </div> <!-- label-wrapper radio-label -->
+         </div> <!-- input-wrapper -->
+
+         <div style="text-align: center; margin-top: 30px;">
+            <button type="submit">INVIA REGISTRAZIONE</button>
+         </div>
+      </form>
+   </div> <!-- container -->
+   
+</body>
+</html>
